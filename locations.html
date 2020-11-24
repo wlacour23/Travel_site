@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Travel Site</title>
+  <link rel="stylesheet" type = "text/css" href="stylesheet.css">
+</head>
+
+<body>
+	<h1>Welcome to my Travel Site</h1>
+		<p id="blue">This site is all about where I want to travel.</p>
+
+	<h2>Here are some places I would like to visit</h2>
+	<ul>
+	  <li>
+	  <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg" 
+      width="50">
+	  <a href="http://www.spain.info/en_US/" target="_blank">Spain</a>
+	</li>
+	<li>
+	  <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
+      width="50">
+	  <a href="http://www.italia.it/en/home.html" target="_blank">Italy</a>
+	</li>
+	<li>
+	  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Aruba.svg" 
+      width="50">
+	  <a href="http://www.arubatourism.com/" target="_blank">Aruba</a>
+	</li>
+	<li>
+	  <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" 
+      width="50">
+	  <a href="https://www.travelalaska.com/" target="_blank">Alaska</a>
+	</li>
+	</ul>	
+	
+	<table>
+	  <tr>
+	    <th>Destination</th>
+	    <th>Capital</th>
+	    <th>Official Language</th>
+	  </tr>
+	  <tr>
+	    <td>Spain</td>
+	    <td>Madrid</td>
+	    <td>Spanish</td>
+	  </tr>
+	  <tr>
+	    <td>Italy</td>
+	    <td>Rome</td>
+	    <td>Italian</td>
+	  </tr>
+	  <tr>
+	    <td>Aruba</td>
+	    <td>Oranjestad</td>
+	    <td>Dutch</td>
+	  </tr>
+	  <tr>
+	    <td>Alaska</td>
+	    <td>Juneau</td>
+	    <td>n/a</td>
+	  </tr>
+    </table>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <div style="padding-left:16px">
+        <h2>Responsive Search Bar</h2>
+        <?php
+echo "My first PHP script!";
+?>
+        <p>Navigation bar with a search box and a submit button inside of it.</p>
+        <p>Resize the browser window to see the responsive effect.</p>
+      </div>
+    <div class="footer">
+        <h3>Headlines.</h3>
+        <p>1000 7th Avenue</p>
+        <p>New York, NY</p>
+        <p>(484) 192 - 8372</p>
+    </div>
+
+</body>
+</html>
