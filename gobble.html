@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  <html>
+  	<head>
+        <meta charset="UTF-8">
+  	</head>
+	<body>
+  		<script>
+              let turkeyQuantity;
+              let gobbleString = "";
+
+
+              turkeyQuantity = 10;
+              console.log("Thank you for your order of", turkeyQuantity, "turkeys");
+              
+              let i = 1;
+              while ( i<=turkeyQuantity){
+                console.log("Gobble!");
+                i = i +1;
+              }
+              for (let i = 1; i <= turkeyQuantity; i = i +1){
+                gobbleString = gobbleString + "Gobble!"; // add one gobble to that string
+              }
+              console.log(gobbleString);
+              console.log("Have a happy thanksgiving!");
+              </script>
+  	</body>
+  </html>

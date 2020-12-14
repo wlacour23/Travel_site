@@ -1,15 +1,28 @@
 <html>
+    <head>
+        <link rel = "stylesheet" href = ".assets/stylesheets/travelstyles.css" type = "text/css">
+    </head>
 <body>
+
     <h3>FAVORITE TRAVEL!</h3>
-    <p>"These are some of my favorite places to travel to."</p>
+    <p class = "fancy">"These are some of my favorite places to travel to:"</p>
+    
     <ul>
         <li>HAWAII!</li>
         <li>Shreveport</li>
         <li>Paris</li>
         <li>The Moon</li>
     </ul>
-    <p><a href="https://www.shreveportla.gov"><img src="./Travel_site/assets/images/Shreveport_Logo.png"></a></p>
+    <h3 id="best">The Best is Shreveport!</h3>
+    
+    <a class ="fancy" href="https://www.shreveportla.gov">Visit Shreveport</a>
+        
+    <img src="./Travel_site/assets/images/Shreveport_Logo.png"></a>
 
+    <script>
+        let selectors = document.querySelectorAll("fancy");
+        selectors[0].style.color = "green";
+    </script>
 
 </body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+  <html>
+  	<head>
+        <meta charset="UTF-8">
+  	</head>
+	<body>
+        <script>
+        let myPromise = new Promise(function(myResolve, myReject) {
+            setTimeout(loveText, 3000);
+        });
+            function loveText() {
+                myFunction("I love You !!!");
+            }
+
+            function myFunction(value) {
+                document.getElementById("demo").innerHTML = value;
+            }
+        </script>
+
+        <p id="demo">This page is working.</p>
+    </body>
+    </html>

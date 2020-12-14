@@ -1,21 +1,28 @@
 <!DOCTYPE html>
   <html>
   	<head>
+        <meta charset="UTF-8">
   	</head>
 	<body>
   		<script>
               let state ;
               let salesTax ;
               let customerAmount = 25.00;
-              state = "VA";
+
+              //What about a Hawaii tax?
+              state = "HI";
               if (state =="VA") {
-                  salesTax = .035;
+                  salesTax = .035;  //assignment
                 } else{
-                    salesTax = .093;
+                  if (state == "HI") {
+                    salesTax = 0.05;  
+                } else {
+
+                  salesTax = 0.093; //this is louisiana
                 }
               console.log("Your tax on your purchase of $", customerAmount);
               console.log("is $", customerAmount * salesTax);
-              
+                }
 
 		</script>
   	</body>
